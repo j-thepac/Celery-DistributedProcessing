@@ -1,5 +1,5 @@
 
-#Broker = Distibuted Queue (Redis , RabbitMQ)
+#Broker =  Queue Tasks (Distibuted Queue : Redis , RabbitMQ)
 #Backend = Save Result ( Redis , Mongo ,SQlite ,RabbitMQ ....)
 from celery import Celery
 import time
