@@ -26,6 +26,7 @@ Pre-Req:
 Steps:
 - Open Terminal 1
   - cd to current folder
+          
           celery -A filename worker --loglevel=INFO
 - Open terminal 2
   - cd to current folder
