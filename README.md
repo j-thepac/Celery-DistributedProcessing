@@ -11,6 +11,7 @@ Pre-Req:
                 libssl-dev
         pip install "celery[librabbitmq]"
 - Make sure RabbitMQ is up and copy URL
+```docker run -d -p 5672:5672 rabbitmq```
 - Make sure MongoDB is UP and copy URL
             - use Cloud or 
             - Use docker
