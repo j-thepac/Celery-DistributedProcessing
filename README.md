@@ -39,7 +39,7 @@ Steps:
 
           from example import add
           res=add.delay(1,2)
-          res.status()
+          res.status
           res.get()
         
 
